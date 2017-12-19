@@ -1,2 +1,0 @@
-[other_machines]
-test_vm2 ansible_connection=local
