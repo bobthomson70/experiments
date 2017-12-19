@@ -1,0 +1,4 @@
+---
+#test_var: {{ vault_test_var }}
+test_var: 'other_test_machines'
+version_to_install: '2.5'

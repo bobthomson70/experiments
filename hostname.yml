@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+    - name : Get hostname
+      command : hostname
+      register : hostname_results
+
+    - debug: msg="{{ hostname_results.stdout }}"
+

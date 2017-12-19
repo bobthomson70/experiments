@@ -1,0 +1,4 @@
+[machines]
+test_vm1 ansible_connection=local
+[other_machines]
+test_vm2 ansible_connection=local
