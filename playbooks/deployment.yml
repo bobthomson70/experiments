@@ -1,0 +1,14 @@
+---
+
+- hosts: all
+  gather_facts: false
+  tasks:
+
+    - ping:
+      register: result
+
+    - debug:
+        msg: "{{ version_to_install }}"
+
+    - shell: /bin/echo "{{ version_to_install }}" > /tmp/version
+
